@@ -29,7 +29,7 @@ aiQueue.process(async (job, done) => {
         const processedData = {
             model: job.data.reqData.model,
             prompt: job.data.reqData.prompt,
-            result: result.data.response.replace(/[\n+]/g, ' '),  // remove the \n and \r from the result
+            result: result.data.response.replace(/[\n+]/g, ' ').trim(),  // remove the \n and \r from the result
             timestamp: new Date().toISOString(),
             uniqueId
         };

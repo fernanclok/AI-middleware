@@ -132,7 +132,7 @@ SYSTEM """ ${data.system}"""
     try {
       // execute the command and wait for it to finish or timeout
       const result = await Promise.race([
-        ejecutarComando(command),
+        executeCommand(command),
         new Promise((_, reject) => {
           timeoutId = setTimeout(() => reject(new Error('Timeout was reached')), timeout);
         }),

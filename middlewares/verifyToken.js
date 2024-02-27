@@ -4,7 +4,7 @@ const logger = require('../helpers/logger');
 
 // Middleware to verify the token
 const verifyToken = (req, res, next) => {
-    const authToken = req.header('Authorization');
+    const authToken = req.header('Token');
 
     if(req.method === 'OPTIONS') {
         return res.status(200).send('OPTIONS');

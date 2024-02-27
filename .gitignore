@@ -1,6 +1,7 @@
 node_modules
 .env
-/combined.log
+logs/combined.log
 package-lock.json
 package.json
 controllers/ai-models
+/uploads

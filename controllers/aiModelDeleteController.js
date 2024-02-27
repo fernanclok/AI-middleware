@@ -46,8 +46,8 @@ const deleteModelController = async (req, res) => {
         fs.unlinkSync(filePath);
         console.log('File deleted:', filePath);
       }
-    } catch (err) {
-      console.error('Error deleting the file:', err);
+    } catch (error) {
+      console.error('Error deleting the file:', error);
     }
   }
 

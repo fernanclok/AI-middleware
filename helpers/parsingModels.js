@@ -10,8 +10,8 @@ const parseModelFileName = (obj) => {
 
 //function to check if the model field is valid
 const parseModelName = (obj) => {
-    if(obj['modelName'] !== "mistral" && obj['modelName'] !== "llama2" && obj['modelName'] !== "codellama") {
-        throw { statuscode: 400, message: 'modelName field must be mistral, llama2 or codellama' };
+    if(obj['modelName'] !== "mistral" && obj['modelName'] !== "llama2" && obj['modelName'] !== "codellama" && obj['modelName'] !== "dolphin-mixtral") {
+        throw { statuscode: 400, message: 'modelName field must be mistral, llama2, codellama or dolphin-mixtral' };
     };
     if(!obj['modelName'] || obj['modelName'].trim() === '') {
         throw { statuscode: 400, message: 'modelName field is required' };

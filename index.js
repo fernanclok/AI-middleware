@@ -19,7 +19,8 @@ if (fs.existsSync(LOGFILE)) {
 }
 
 //use cors
-app.use(cors());
+app.use(cors(
+));
 
 //create a write stream
 const writeStream = {
