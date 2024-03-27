@@ -71,7 +71,7 @@ to use this endpoint you need send the audio file and the header multipart/form-
 
 here’s an example:
 
-![Untitled](docs/images_doc/Untitled.png)
+![Untitled](images_doc/Untitled.png)
 
 with that endpoint your response is your audio file into text.
 
