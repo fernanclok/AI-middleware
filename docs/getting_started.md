@@ -55,4 +55,4 @@ npm run start:prod
 
 Now you are ready to start using the AI-middleware
 
-[⬅️ Back](readme.md)                                                      [Main page](readme.md)                                                     [Endpoints ➡️](docs/endpoints.md)
+[⬅️ Back](/readme.md)                                                      [Main page](/readme.md)                                                     [Endpoints ➡️](endpoints.md)

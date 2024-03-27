@@ -57,7 +57,7 @@ the las endpoint allow you to create a custom model.
 
 If you want to create a custom model see the instruction to create the model here:
 
-[Create custom model](docs/create_custom_model.md)
+[Create custom model](create_custom_model.md)
 
 The next endpoint is
 
@@ -75,4 +75,4 @@ here’s an example:
 
 with that endpoint your response is your audio file into text.
 
-[⬅️ Getting Started](docs/getting_started.md)                                    [Main page](readme.md)                                   [Create custom Model ➡️](docs/create_custom_model.md)
+[⬅️ Getting Started](getting_started.md)                                    [Main page](readme.md)                                   [Create custom Model ➡️](create_custom_model.md)
