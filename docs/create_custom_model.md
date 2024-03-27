@@ -52,4 +52,4 @@ The allowed parameters are the following
 
 This parameters are not required for the creation of the custom model, but if you want more control about yor custom model you can use this parameters to modify more the model.
 
-[⬅️ endpoints](endpoints.md)                                            [Main page](readme.md)
+[⬅️ endpoints](endpoints.md)                                            [Main page](/readme.md)
