@@ -75,4 +75,4 @@ here’s an example:
 
 with that endpoint your response is your audio file into text.
 
-[⬅️ Getting Started](getting_started.md)                                    [Main page](readme.md)                                   [Create custom Model ➡️](create_custom_model.md)
+[⬅️ Getting Started](getting_started.md)                                    [Main page](/readme.md)                                   [Create custom Model ➡️](create_custom_model.md)
