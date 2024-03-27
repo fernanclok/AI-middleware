@@ -46,7 +46,7 @@ const aiSpeechToTextController = async (req, res) => {
 
       const formData = new FormData();
       formData.append('format', req.body.format);
-
+      
       // Add the audio file to FormData
       const audioFilePath = req.files['audio'][0].path;
       const audioFileStream = fs.createReadStream(audioFilePath);

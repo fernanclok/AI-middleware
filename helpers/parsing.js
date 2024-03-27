@@ -1,7 +1,5 @@
 const regex = /^[a-zA-Z0-9._,/?() -]*$/;
 
-//parsing function for /ai and /ai/result
-
 //function to check if the input is empty
 const checkEmptyInput = (obj) => {
     if(!Object.keys(obj).length) {

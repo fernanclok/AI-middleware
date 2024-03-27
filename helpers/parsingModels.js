@@ -1,5 +1,3 @@
-//parsing function for /create-model
-
 //function to check if the input is empty
 const parseModelFileName = (obj) => {
     if(!obj['fileName'] || obj['fileName'].trim() === '') {
